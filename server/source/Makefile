@@ -4,12 +4,12 @@ LINUX_EXE = bluering
 
 EXE = ${LINUX_EXE}
 
-objects = 
+objects = bluering.o
 
 all : ${EXE}
 
 ${EXE}: $(objects)
-	${CC} -c $(objects) -o ${EXE} ${LDLIBS}
+	${CC} $(objects) -o ${EXE} ${LDLIBS}
 
 .PHONY : clean
 clean : 

@@ -2,8 +2,8 @@
 
 CC = gcc
 bluering_DIR = ../../
-bluering_INCL_DIR_SERVER = ${bluering_DIR}/server/include
-bluering_INCL_DIR_CLIENT = ${bluering_DIR}/client/include
+bluering_INCL_DIR_SERVER = ${bluering_DIR}/server/headers
+bluering_INCL_DIR_CLIENT = ${bluering_DIR}/client/headers
 
 CFLAGS = -g \
 		-Wall \
